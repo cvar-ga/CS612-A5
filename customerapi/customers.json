@@ -1,0 +1,141 @@
+[
+  {
+    "cust_id": 0,
+    "name": "Sherrie Rose",
+    "gender": "female",
+    "email": "sherrierose@zentry.com",
+    "phone": "+1 (825) 461-3409",
+    "orders": [
+      {
+        "order_id": 0,
+        "order": "iced tea"
+      },
+      {
+        "order_id": 1,
+        "order": "flatbread pizza"
+      },
+      {
+        "order_id": 2,
+        "order": "flatbread pizza"
+      }
+    ]
+  },
+  {
+    "cust_id": 1,
+    "name": "Mcmillan Solis",
+    "gender": "male",
+    "email": "mcmillansolis@zentry.com",
+    "phone": "+1 (844) 493-2773",
+    "orders": [
+      {
+        "order_id": 0,
+        "order": "grilled cheese"
+      },
+      {
+        "order_id": 1,
+        "order": "tomato soup"
+      },
+      {
+        "order_id": 2,
+        "order": "hot coffee"
+      }
+    ]
+  },
+  {
+    "cust_id": 2,
+    "name": "Powers House",
+    "gender": "male",
+    "email": "powershouse@zentry.com",
+    "phone": "+1 (892) 566-3745",
+    "orders": [
+      {
+        "order_id": 0,
+        "order": "hot tea"
+      },
+      {
+        "order_id": 1,
+        "order": "tomato soup"
+      },
+      {
+        "order_id": 2,
+        "order": "grilled cheese"
+      }
+    ]
+  },
+  {
+    "cust_id": 3,
+    "name": "Selena Skinner",
+    "gender": "female",
+    "email": "selenaskinner@zentry.com",
+    "phone": "+1 (922) 470-3603",
+    "orders": [
+      {
+        "order_id": 0,
+        "order": "hot coffee"
+      },
+      {
+        "order_id": 1,
+        "order": "flatbread pizza"
+      }
+    ]
+  },
+  {
+    "cust_id": 4,
+    "name": "Chase Ellison",
+    "gender": "male",
+    "email": "chaseellison@zentry.com",
+    "phone": "+1 (913) 479-3922",
+    "orders": [
+      {
+        "order_id": 0,
+        "order": "hot coffee"
+      },
+      {
+        "order_id": 1,
+        "order": "iced coffee"
+      }
+    ]
+  },
+  {
+    "cust_id": 5,
+    "name": "Hinton Bullock",
+    "gender": "male",
+    "email": "hintonbullock@zentry.com",
+    "phone": "+1 (899) 447-3458",
+    "orders": [
+      {
+        "order_id": 0,
+        "order": "smoothie"
+      },
+      {
+        "order_id": 1,
+        "order": "tomato soup"
+      },
+      {
+        "order_id": 2,
+        "order": "iced tea"
+      }
+    ]
+  },
+  {
+    "cust_id": 6,
+    "name": "Traci Guerra",
+    "gender": "female",
+    "email": "traciguerra@zentry.com",
+    "phone": "+1 (910) 500-2974",
+    "orders": [
+      {
+        "order_id": 0,
+        "order": "hot coffee"
+      },
+      {
+        "order_id": 1,
+        "order": "hot tea"
+      },
+      {
+        "order_id": 2,
+        "order": "hot coffee"
+      }
+    ]
+  }
+]
