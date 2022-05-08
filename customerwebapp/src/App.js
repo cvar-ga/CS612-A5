@@ -55,7 +55,6 @@ export default function App(){
             Gender: {item.gender}<br></br>
             Email: {item.email}<br></br>
             Phone: {item.phone}<br></br>
-            Email: {item.email}<br></br>
             Orders: {item.orders.map(order => `${order.order} , `)}</div>
 
         );

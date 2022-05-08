@@ -9,12 +9,15 @@ api = Api(app)
 
 @app.after_request
 def add_cors_headers(response):
-    r = request.referrer[:-1]
-    response.headers.add('Access-Control-Allow-Origin', r)
-    response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
-    response.headers.add('Access-Control-Allow-Headers', 'Accept')
-    response.headers.add('Access-Control-Allow-Methods', 'GET')
-    return response
+    try:
+        r = request.referrer[:-1]
+        response.headers.add('Access-Control-Allow-Origin', r)
+        response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
+        response.headers.add('Access-Control-Allow-Headers', 'Accept')
+        response.headers.add('Access-Control-Allow-Methods', 'GET')
+        return response
+    except Exception:
+        return response
 
 customers = []
 with open('customers.json', 'r') as f:
